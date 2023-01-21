@@ -4,7 +4,7 @@
 if BOARD_BT75
 
 config BOARD
-	default "bt75"
+	default "kbd75/bt75"
 
 if USB
 
@@ -29,6 +29,6 @@ config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
 config ZMK_KEYBOARD_NAME
-	default "BT75"
+	default "KBD75/BT75"
 
 endif # BOARD_BT75
